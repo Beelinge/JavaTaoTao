@@ -1,0 +1,12 @@
+package com.taotao.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class PageController {
+	// 打开首页
+	@RequestMapping("/")
+	public String showIndex() {
+		return "index";
+	}
+}
